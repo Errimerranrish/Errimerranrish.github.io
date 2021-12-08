@@ -1,0 +1,91 @@
+*{
+margin:2px;
+padding:2px;
+text-decoration:none;
+//background-color:none;
+//background-color:rgba(125,125,125,1);
+}
+
+body{
+background-color: rgb(192, 255, 212);
+}
+
+form {;
+background-color: rgb(233, 227, 227);
+}
+
+
+
+.hellobox {
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+flex-basis: 40px;
+justify-content:space-around;
+align-items:center;
+padding-bottom: 0em;
+height:11em;
+max-height: 150px;
+background-image: url("../schapka.jpg");
+background-color: rgb(61, 189, 102);
+background-repeat:no-repeat;
+background-position-y: 20%;
+background-position-x: 50%;
+background-size:100%;
+font: 25px "Copperplate Gothic Bold", sans-serif;
+font-size:3.5em;
+font-style:italic;
+color: #d9dce4;
+text-shadow: 4px 3px 2px #111010;
+}
+
+h1{
+  font: 50px "Copperplate Gothic Bold", sans-serif;
+font-size:2.7em;
+font-style:italic;
+color: #34351a;
+text-align: center;
+}
+
+h2 {font: 5px "Copperplate Gothic Bold", sans-serif;
+  font-size:2em;	color: #111010;	text-align:center;	padding:0.5em;}
+h3,h4 {font: 5px "Copperplate Gothic Bold", sans-serif; font-size:1.1em;}
+img {border-width:2px; border-style:dashed; border-color:black;	vertical-align:middle;}
+
+/*figure{float: left; width: 300px; padding-left: 10px; padding-bottom: 10px;}*/
+
+p {font: 5px "Copperplate Gothic Bold", sans-serif; font-size:1em}
+
+nav{
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+justify-content:space-around;
+align-items:stretch;
+
+list-style-type:none;
+padding-top: 0.1em;
+padding-bottom: 0.1em;
+background-color: rgba(61, 189, 102, 0.69);
+}
+
+oglavlenie{list-style-type:none;
+padding-top: 0.1em;
+padding-bottom: 0.1em;}
+
+table{border: 2px solid rgba(0, 0, 0, 0.69);}
+
+li {background-color: #c0ffd4; border: 2px solid rgba(61, 189, 102, 0.69);}
+a {border:0px; background-color: #c0ffd4; color: #2b7042;  text-decoration:none;}
+a:hover  {color: black; text-decoration:underline;}
+.current {color: #a76939;font-style:oblique;}
+
+main{
+margin:-1px;
+}
+
+footer {
+  font: 10px "Copperplate Gothic Bold", sans-serif;
+margin:1px;
+background-color: rgba(200, 200, 200, 1);
+}
